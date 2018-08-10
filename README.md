@@ -23,3 +23,7 @@ microblog（ウェブアプリケーション）の設定
 URLとビューを結びつけるためのファイル
 <p>wsgi.py</p>
 デプロイするときに使う
+
+```bash
+python manage.py createsuperuser
+```
