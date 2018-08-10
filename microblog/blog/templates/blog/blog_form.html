@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body%}
+	<h1>新規作成</h1>
+	<form method="post">
+		
+		{% csrf_token %} <!-- Djangoで送信など編集系のフォームを作る際に必要（脆弱性を回避するためのもの） -->
+		<table class ="table">
+			{{form}}
+		</table>
+		<button class="btn_btn-primary" type="submit">送信</button>
+	</form>
+
+
+{% endblock%}
