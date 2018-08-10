@@ -1,14 +1,14 @@
 # Try_django
-models.py
+#models.py
 このアプリケーションのモデル
 データを保存したり、データベースとやり取りする
-views.py
+#views.py
 URLにリクエストが来たときに対応する処理を記述する
 いわゆるコントローラーにあたる
-tests.py
+#tests.py
 テストを記述する
-apps.py
+#apps.py
 アプリケーションの設定を行う
 今回は使用しない
-admin.py
+#admin.py
 Djanogの管理サイトにこのアプリケーションを登録するときに使う
