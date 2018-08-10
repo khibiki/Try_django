@@ -21,7 +21,7 @@ microblogディレクトリ
 microblog（ウェブアプリケーション）の設定
 <p>urls.py</p>
 URLとビューを結びつけるためのファイル
-<p>wsgi.py</p>
+'wsgi.py'
 デプロイするときに使う
 
 ```bash
