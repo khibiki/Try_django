@@ -1,5 +1,5 @@
 # Try_django
-#models.py
+<p>models.py</p>
 このアプリケーションのモデル
 データを保存したり、データベースとやり取りする
 #views.py
